@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Four card feature section</title>
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="bg-[var(--White)] flex flex-col text-center items-center pt-6">
+      <div class="mb-12">
+      <h1 class="text-[var(--Grey400)] font-normal text-2xl md:text-3xl">Reliable, efficient delivery</h1>
+      <h2 class="text-[var(--Grey500)] font-semibold text-2xl md:text-3xl">Powered by Technology</h2>
+
+      <p class="text-[var(--Grey500)] max-w-xl mx-auto md:text-base text-sm ">
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-start">
+        <div
+          class="cont px-9 flex flex-col shadow-xl h-48 w-80 justify-between rounded-md py-4 border-t-4 border-[var(--Cyan)] bg-[var(--White)] md:row-span-2 md:mt-28"
+        >
+          <h3 class="font-bold text-lg text-left mb-2">Supervisor</h3>
+          <p class="text-gray-500 text-left text-sm">
+            Monitors activity to identify project roadblocks
+          </p>
+          <img
+            src="images/icon-supervisor.svg"
+            alt=""
+            class="mt-6 self-end w-12 h-12"
+          />
+        </div>
+        <div class="flex flex-col gap-6">
+          <div
+            class="cont w-80 py-4 px-3 shadow-xl rounded-md border-t-4 border-red-600 bg-[var(--White)] text-black mt-auto h-48"
+          >
+            <h3 class="font-bold text-lg text-left mb-2">Team Builder</h3>
+            <p class="text-[var(--Grey500)] text-left text-sm">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <img
+              src="images/icon-team-builder.svg"
+              alt="team buikder icon"
+              class="float-right w-12 h-12 self-end mt-6"
+            />
+          </div>
+          <div
+            class="cont cont w-80 py-4 px-3 border-t-4 shadow-xl rounded-md border-[var(--Orange)] bg-[var(--White)] text-black text-start h-48"
+          >
+            <h3 class="font-bold text-lg text-left mb-2">Karmar</h3>
+            <p class="text-[var(--Grey500)] text-left text-sm">
+              Regularly evaluates our talent to ensure quality
+            </p>
+            <img
+              src="images/icon-karma.svg"
+              alt="team buikder icon"
+              class="float-right w-12 h-12 mt-6"
+            />
+          </div>
+        </div>
+        <div
+          class="cont w-80 py-4 px-3 border-t-4 border-[var(--Cyan)] shadow-xl rounded-md bg-[var(--White)] h-48 md:mt-28"
+        >
+          <h3 class="font-bold text-lg text-left mb-2 ">Calculator</h3>
+          <p class="text-[var(--Grey500)] text-left text-sm">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <img
+            src="images/icon-calculator.svg"
+            alt=""
+            class="float-right w-12 h-12 mt-6"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
+</html>

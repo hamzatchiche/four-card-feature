@@ -1,0 +1,21 @@
+:root{
+    --Orange: hsl(34, 97%, 64%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Blue: hsl(212, 86%, 64%);
+    --Grey500: hsl(234, 12%, 34%);
+    --Grey400: hsl(212, 6%, 44%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* .cont{
+    box-shadow: 1px 5px 9px var(--Grey500);
+} */
