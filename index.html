@@ -18,7 +18,8 @@
     />
 
     <title>Frontend Mentor | Four card feature section</title>
-
+    <!-- gsap cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
@@ -27,13 +28,17 @@
   <body>
     <div class="bg-[var(--White)] flex flex-col text-center items-center pt-6">
       <div class="mb-12">
-      <h1 class="text-[var(--Grey400)] font-normal text-2xl md:text-3xl">Reliable, efficient delivery</h1>
-      <h2 class="text-[var(--Grey500)] font-semibold text-2xl md:text-3xl">Powered by Technology</h2>
+        <h1 class="text-[var(--Grey400)] font-normal text-2xl md:text-3xl">
+          Reliable, efficient delivery
+        </h1>
+        <h2 class="text-[var(--Grey500)] font-semibold text-2xl md:text-3xl">
+          Powered by Technology
+        </h2>
 
-      <p class="text-[var(--Grey500)] max-w-xl mx-auto md:text-base text-sm ">
-        Our Artificial Intelligence powered tools use millions of project data
-        points to ensure that your project is successful
-      </p>
+        <p class="text-[var(--Grey500)] max-w-xl mx-auto md:text-base text-sm">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-start">
         <div
@@ -81,7 +86,7 @@
         <div
           class="cont w-80 py-4 px-3 border-t-4 border-[var(--Cyan)] shadow-xl rounded-md bg-[var(--White)] h-48 md:mt-28"
         >
-          <h3 class="font-bold text-lg text-left mb-2 ">Calculator</h3>
+          <h3 class="font-bold text-lg text-left mb-2">Calculator</h3>
           <p class="text-[var(--Grey500)] text-left text-sm">
             Uses data from past projects to provide better delivery estimates
           </p>
@@ -102,5 +107,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
